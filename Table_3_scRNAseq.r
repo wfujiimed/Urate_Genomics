@@ -10,7 +10,7 @@ rm(list = ls())
 memory.limit(size=56000)
 
 # Load data
-data <- LoadH5Seurat("521c5b34-3dd0-4871-8064-61d3e3f1775a_PREMIERE_Alldatasets_08132021.h5Seurat", assays = "data")
+data <- LoadH5Seurat("~/521c5b34-3dd0-4871-8064-61d3e3f1775a_PREMIERE_Alldatasets_08132021.h5Seurat", assays = "data")
 
 # Extract only "LivingDonor(LD)" data
 data_ld <- subset(data, subset = sampletype == "LD")
