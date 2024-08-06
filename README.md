@@ -1,4 +1,4 @@
-# gene and enviroment interaction on urate metabolism
+# Gene and enviroment interaction on urate metabolism
 
 ## Description
 
